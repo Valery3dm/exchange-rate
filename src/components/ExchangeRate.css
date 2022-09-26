@@ -1,0 +1,22 @@
+.wrapper {
+  background: linear-gradient(90deg, rgba(0,130,209,1) 0%, rgba(255,209,0,1) 100%);
+  width: 200px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+input, select {
+  background: none;
+  border: 0;
+  color: rgb(0, 0, 0);
+}
+
+input {
+  padding-left: 20px;
+}
+
+select {
+  padding: 15px;
+}
